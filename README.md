@@ -1,4 +1,4 @@
-<h1 align="center">🔊 PRISM-SASV</h1>
+<h1 align="center">🛡️ PRISM-SASV</h1>
 <p align="center"><b>P</b>honeme-<b>R</b>esolved <b>I</b>dentity and <b>S</b>poof <b>M</b>odeling for <b>S</b>poofing-<b>A</b>ware <b>S</b>peaker <b>V</b>erification</p>
 
 <p align="center">
@@ -68,9 +68,10 @@ Then point the paths in `configs.py` at the components below.
 
 | Dataset | Source |
 |---|---|
-| ASVspoof2019/2021 LA | [ASVspoof 2021 Challenge](https://www.asvspoof.org/) ([Yamagishi et al., 2021](https://arxiv.org/abs/2109.00537)) |
-| ASVspoof5 | [ASVspoof 5 Challenge](https://www.asvspoof.org/) ([Wang et al., 2024](https://arxiv.org/abs/2408.08739)), Track 2 evaluation release |
-| SpoofCeleb | [SpoofCeleb](https://jungjee.github.io/spoofceleb/) ([Jung et al., 2024](https://arxiv.org/abs/2409.17285)) |
+| ASVspoof2019 LA | [datashare.ed.ac.uk/handle/10283/3336](https://datashare.ed.ac.uk/handle/10283/3336) ([Yamagishi et al., 2019](https://www.asvspoof.org/)) |
+| ASVspoof2021 LA | [zenodo.org/record/4837263](https://zenodo.org/record/4837263) ([Yamagishi et al., 2021](https://arxiv.org/abs/2109.00537)) |
+| ASVspoof5 | [`jungjee/asvspoof5`](https://huggingface.co/datasets/jungjee/asvspoof5) on HuggingFace, or [github.com/asvspoof-challenge/asvspoof5](https://github.com/asvspoof-challenge/asvspoof5) ([Wang et al., 2024](https://arxiv.org/abs/2408.08739)), Track 2 evaluation release |
+| SpoofCeleb | [`jungjee/spoofceleb`](https://huggingface.co/datasets/jungjee/spoofceleb) on HuggingFace, or [jungjee.github.io/spoofceleb](https://jungjee.github.io/spoofceleb/) ([Jung et al., 2024](https://arxiv.org/abs/2409.17285)) |
 | FamousFigures | [`issf/famousfigures`](https://huggingface.co/datasets/issf/famousfigures) on HuggingFace -- **gated**; request access on the dataset page, then set `HF_TOKEN` in your environment before first use |
 
 Point the relevant `configs.py` constants at each (protocol files, audio roots, parquet dirs).
