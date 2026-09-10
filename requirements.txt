@@ -1,0 +1,12 @@
+torch
+torchaudio
+transformers
+librosa
+soundfile
+webrtcvad
+scikit-learn
+numpy
+pandas
+joblib
+tqdm
+typeguard==2.13.3
